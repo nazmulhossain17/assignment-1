@@ -1,0 +1,311 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/donation5.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 4vmin;
+}
+
+.btn {
+    background-color: #af4caf; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+.wrapper {
+    width: 780px;
+    margin: 100px auto 0;
+  }
+  
+  .wrapper .title {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container .option_item {
+    display: block;
+    position: relative;
+    width: 175px;
+    height: 175px;
+    margin: 10px;
+  }
+  
+  .container .option_item .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+  }
+  
+  .name{
+    font-size: 30px;
+  }
+  .option_item .option_inner {
+    width: 100%;
+    height: 100%;
+    background: rgb(218, 215, 215);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 4px;
+    cursor: pointer;
+    color: #585c68;
+    display: block;
+    border: 5px solid transparent;
+    position: relative;
+  }
+  
+  /* .option_item .option_inner .icon {
+    margin-bottom: 10px;
+  }
+  
+  .option_item .option_inner .icon .fab {
+    font-size: 32px;
+  } */
+  
+  .option_item .option_inner .name {
+    user-select: none;
+    color: green;
+  }
+  
+  .option_item .checkbox:checked ~ .option_inner.firstTk {
+    border-color: #3b5999;
+    color: #3b5999;
+  }
+  
+  .option_item .checkbox:checked ~ .option_inner.secondTk {
+    border-color: #55acee;
+    color: #55acee;
+  }
+  
+  .option_item .checkbox:checked ~ .option_inner.thirdTk {
+    border-color: #40e48a;
+    color: #40e48a;
+  }
+  
+  .option_item .checkbox:checked ~ .option_inner.fourthTk {
+    border-color: #e4405f;
+    color: #e4405f;
+  }
+  
+  .option_item .option_inner .tickmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 20px solid;
+    border-color: #000 transparent transparent #000;
+    display: none;
+  }
+  
+  .option_item .option_inner .tickmark:before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    width: 15px;
+    height: 5px;
+    border: 3px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+  }
+
+  .option_item .checkbox:checked ~ .option_inner .tickmark {
+    display: block;
+  }
+  
+  .option_item .option_inner.firstTk .tickmark {
+    border-color: #3b5999 transparent transparent #3b5999;
+  }
+  
+  .option_item .option_inner.secondTk .tickmark {
+    border-color: #55acee transparent transparent #55acee;
+  }
+  
+  .option_item .option_inner.thirdTk .tickmark {
+    border-color: #40e48a transparent transparent #40e48a;
+  }
+  
+  .option_item .option_inner.fourthTk .tickmark {
+    border-color: #e4405f transparent transparent #e4405f;
+  }
+  
+  h2{
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+form {
+    background: #ffffff;
+    border-radius: .3rem;
+    padding: 1.3rem;
+    width: 350px;
+    margin: 2rem auto;
+}
+input {
+    width: 100%;
+    background: #f5f5f5;
+    border: 0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+}
+.btn2 {
+    width: 107%;
+    padding: 12px;
+    border: 0;
+    background: #c3b6e2;
+    font-size: 1.1em;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, .4);
+    margin-top: 1.2rem;
+    border-radius: .25rem;
+}
+.btn2 {
+    color: #fff;
+    background: #8a70c6;
+    border-color: #a18cd1;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #0564ad;
+    background-color: #f9f9f9;
+    border-radius: .25rem;
+}
+.margin-below{
+    margin-bottom: 1.2rem;
+}
+.form-control:focus {
+    border-color: #7743ff;
+}
+
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.pro-level {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 4%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.pro-level img {
+    width: 15%;
+}
+
+#web-dev-ex {
+    border-image-slice: 1;
+    background-color: rgb(149, 177, 177);
+}
+
+#full-stack-ex {
+    border-image-slice: 1;
+    background-color: rgb(218, 194, 197);
+}
+
+#dev-ex {
+    border-image-slice: 1;
+    background-color: rgb(141, 141, 99);
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+.don{
+    text-align: center;
+}
+
+.last {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.last img {
+    width: 60%;
+}
+
+.just-btn {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(168, 90, 90), tomato);
+    color: oldlace;
+    font-weight: 500;
+    padding: 10px 60px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.middle-width {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.middle-width img {
+    width: 85%;
+}
+
+.middle-banner {
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.sub{
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+.foter {
+    color: rgb(216, 32, 32);
+}
+.year {
+    color: green;
+}
